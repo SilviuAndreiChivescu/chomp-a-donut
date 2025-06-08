@@ -123,7 +123,7 @@ const DonutList = () => {
             onClick={handleReset}
             className={`${
               isResetButtonDisabled
-                ? "bg-gray-300 cursor-not-allowed"
+                ? "bg-gray-300 cursor-not-allowed opacity-50"
                 : "border blue:border-[bg-blueTheme-text] blue:text-blueTheme-text pink:border-[bg-pinkTheme-text] pink:text-pinkTheme-text"
             } px-4 py-2 rounded `}
           >
