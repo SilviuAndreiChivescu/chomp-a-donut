@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-blueTheme: #2069FA;
+    --color-pinkTheme: #FFDCFA;
+    --color-blueTheme-text: #FFFFFF;
+    --color-pinkTheme-text: #1F2937;
+}
+
+@custom-variant blue (&:where([data-theme=blue], [data-theme=blue] *));
+@custom-variant pink (&:where([data-theme=pink], [data-theme=pink] *));
